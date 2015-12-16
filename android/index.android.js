@@ -1,6 +1,6 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
+ * ebook reader built on React-Native for Android
+ * https://github.com/libraryforall/ebook-catalog-react-native
  */
 'use strict';
 
@@ -32,7 +32,7 @@ var TodoLite = React.createClass({
     return (
       <View style={styles.container}>
         <ToolbarAndroid
-          title="TodoLite ReactNative Android"
+          title="Library For All"
           style={styles.toolbar}>
         </ToolbarAndroid>
         <Home/>

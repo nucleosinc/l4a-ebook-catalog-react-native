@@ -7,7 +7,7 @@ A content management tool for ebooks using React-Native and Couchbase Lite based
 ## Prerequisites
 
 - Node.js 4.0 or higher
-- [Android Studio](http://developer.android.com/sdk/installing/studio.html) and an emulator
+- [Android Studio](http://developer.android.com/sdk/installing/studio.html) or easier perhaps just an IDE and Genymotion with Android SDK installed
 
 
 ## Getting Started
@@ -30,6 +30,7 @@ $ ./gradlew installDebug
 ```
 
 Watch this [short screencast](https://www.youtube.com/watch?v=ajHughXQ5Yw) for more debugging tips.
+> Note that for linux the 'enable debug' will fail as it tries to launch chrome. For now you can override android/node_modules/react-native/local-cli/server/middleware:23 to be 'chromium-browser' although that can be overwritten next time you npm install
 
 ## Sync Gateway
 

@@ -5,7 +5,16 @@ var CBLModule = require('./../utils/CBLModule');
 var {
   Text,
   View,
+  StyleSheet,
   } = React;
+
+var styles = StyleSheet.create({
+  text: {
+    flex: 1,
+    backgroundColor: '#1100ff',
+    color: '#fff'
+  }
+})
 
 class Home extends React.Component {
   componentWillMount() {
@@ -27,7 +36,7 @@ class Home extends React.Component {
   render() {
     return (
       <View>
-        <Text>Hello</Text>
+        <Text style={styles.text}>Hello World</Text>
       </View>
     );
   }
