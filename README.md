@@ -1,4 +1,4 @@
-# Ebook Reader Native Android
+# Ebook Reader React Native Android
 
 A content management tool for ebooks using React-Native and Couchbase Lite based on the starter kit [here](https://github.com/couchbaselabs/reactnative-starter-kit).
 
