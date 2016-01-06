@@ -6,7 +6,6 @@ class Launch extends React.Component {
         return (
             <View style={styles.container}>
                 <Text>Launch page</Text>
-                <TouchableHighlight onPress={Actions.test}>Go to test page</TouchableHighlight>
             </View>
         );
     }
