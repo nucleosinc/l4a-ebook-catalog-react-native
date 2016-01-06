@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "base-64": "^0.1.0",
-    "react-native": "0.17.0-rc"
+    "react-native": "0.17.0-rc",
+    "react-native-router": "^0.2.1",
+    "react-native-router-flux": "^2.0.4"
   }
 }

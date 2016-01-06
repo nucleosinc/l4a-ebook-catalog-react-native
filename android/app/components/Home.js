@@ -32,11 +32,11 @@ class Home extends React.Component {
         });
     });
   }
-  
+
   render() {
     return (
       <View>
-        <Text style={styles.text}>Hello World</Text>
+        <Text style={styles.text}>Not sure but home page is here</Text>
       </View>
     );
   }
