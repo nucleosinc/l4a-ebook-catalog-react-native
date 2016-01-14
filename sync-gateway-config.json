@@ -1,9 +1,10 @@
 {
   "log": ["*"],
   "databases": {
-    "todos": {
-      "server": "walrus:",
-      "users": { "GUEST": { "disabled": false, "admin_channels": ["*"] } }
+    "moviesapp": {
+      "users": {
+        "GUEST": {"disabled": false, "admin_channels": ["*"]}
+      }
     }
   }
 }
